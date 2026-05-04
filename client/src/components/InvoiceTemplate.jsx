@@ -1,7 +1,6 @@
 import { forwardRef } from 'react';
 import { formatCurrency, formatDate } from '../utils/format';
 import logo from "../assets/logo.jpeg";
-import logo from "../assets/logo.jpeg";
 
 const InvoiceTemplate = forwardRef(({ invoice }, ref) => {
   if (!invoice) return null;
